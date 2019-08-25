@@ -4,9 +4,8 @@ import model.Complex;
 
 public class Functions {
 	
-	public static Complex CSuma(Complex c1, Complex c2) {
-		Complex c3 = new Complex(c1.getpReal() + c2.getpReal(), c1.getpImg() + c2.getpImg());
-		return c3;
+	public static Complex CSum(Complex c1, Complex c2) {
+		return new Complex(c1.getpReal() + c2.getpReal(), c1.getpImg() + c2.getpImg());
 
 	}
 
@@ -14,7 +13,7 @@ public class Functions {
 		return new Complex(c1.getpReal() - c2.getpReal(), c1.getpImg() - c2.getpImg());
 	}
 
-	public static Complex CProducto(Complex c1, Complex c2) {
+	public static Complex CProduct(Complex c1, Complex c2) {
 
 		double real = (c1.getpReal() * c2.getpReal()) + (c1.getpImg() * c2.getpImg() * -1);
 		double img = (c1.getpReal() * c2.getpImg()) + (c1.getpImg() * c2.getpReal());

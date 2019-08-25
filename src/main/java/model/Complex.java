@@ -2,8 +2,8 @@ package model;
 
 public class Complex {
 	
-	double pReal;
-	double pImg;
+	private double pReal;
+	private double pImg;
 	
 	@Override
 	public int hashCode() {
