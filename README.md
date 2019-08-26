@@ -45,6 +45,8 @@ En el caso `de testSum` debes modificar los complejos a sumar que están indicad
 Del mismo modo es posible modificar cualquier caso de prueba para corroborar la efectividad del programa.
 
 El resultado al finalizar y ejecutar nuevamente los comandos anteriormente indicados para ejecutar las pruebas, el resultado deberá ser el siguiente:
+
+
 ![TestResult](img/testResult.png)
 
 
