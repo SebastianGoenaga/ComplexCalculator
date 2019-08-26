@@ -46,7 +46,6 @@ Del mismo modo es posible modificar cualquier caso de prueba para corroborar la 
 
 El resultado al finalizar y ejecutar nuevamente los comandos anteriormente indicados para ejecutar las pruebas, el resultado deberá ser el siguiente:
 
-
 ![TestResult](img/testResult.png)
 
 
