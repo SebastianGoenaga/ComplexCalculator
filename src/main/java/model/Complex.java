@@ -49,7 +49,7 @@ public class Complex {
 	@Override
 	public String toString() {
 		
-		return pReal + ", " + pImg + "i";
+		return pReal + ((pImg<0)? "-"+pImg*-1: "+"+pImg) + "i";
 	}
 	
 }
