@@ -39,7 +39,7 @@ public class Functions {
 	}
 
 	public static Complex Conjugate (Complex c) {
-		return new Complex(c.getpReal(), -c.getpImg());
+		return new Complex(c.getpReal(), (c.getpImg()==0)? 0:-c.getpImg());
 	}
 	
 	public static Complex PolarToCartesian(Complex c) {
